@@ -21,6 +21,7 @@
         <tr>
             <td>商品名称</td>
             <td>商品图片</td>
+            <td>商品原价</td>
             <td>秒杀价</td>
             <td>库存数量</td>
             <td>详情</td>
@@ -31,7 +32,7 @@
             <td th:text="${goods.goodsPrice}"></td>
             <td th:text="${goods.seckillPrice}"></td>
             <td th:text="${goods.stockCount}"></td>
-            <td><a th:href="'/goodsDetail.htm?goodsId='+${goods.id}">详情</a></td>
+            <td><a th:href="'/goods/toDetail/'+${goods.id}">详情</a></td>
         </tr>
     </table>
 </div>

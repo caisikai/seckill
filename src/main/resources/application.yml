@@ -38,6 +38,7 @@ spring:
         max-idle: 2000
         min-idle: 5
 
+
 # Mybatis-plus配置
 mybatis-plus:
   #配置Mapper映射文件
